@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TonFlip</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="wrap">
+        <div class="title">
+            <img src="logo.png">
+            TonFlip
+        </div>
+        <div class="subtitle">
+            A game «Head and Tail» implemented as a Telegram Bot.
+        </div>
+        <header>How it works?</header>
+        <p>
+            First of all bot generates result hashes for "Head" and "Tail" where hash equals one
+            or zero plus random number wrapped this all in hash function.
+        </p>
+        <a href="scheme.png">
+            <img class="img" src="scheme.png">
+        </a>
+        <div class="img_desc">Scheme of how bot works</div>
+
+        <br><br>
+        <p>
+        Then, players top up their balances by sending money to the channel. Next, they place their bets and choose "Head" or "Tail".
+        <br><br>
+        If both players have chosen Head or Tail, then nothing happens and balances stay unchanged.
+        <br><br>
+        After all these actions, bot reveals the result, the balances change and players can continue or leave the game and commit changes of balances.
+        </p>
+
+        <header>Video</header>
+        <video controls="true" src="video.mp4"></video>
+        <header>Try it now!</header>
+        Bot: <a href="https://t.me/ton_flip_bot">@ton_flip_bot</a>
+    </div>
+</body>
+</html>
