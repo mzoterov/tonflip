@@ -1,0 +1,22 @@
+{
+  "name": "tonflip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@grammyjs/runner": "^1.0.3",
+    "@types/node": "^18.0.0",
+    "dotenv": "^16.0.1",
+    "grammy": "^1.9.0",
+    "tonweb": "^0.0.50",
+    "tonweb-mnemonic": "^1.0.1"
+  }
+}
